@@ -158,3 +158,73 @@ body {
     padding: 20px; /* Adjust padding for form container */
   }
 }
+
+
+
+/* Add your custom styles here based on the existing styles */
+
+/* Example: */
+.table-container {
+  margin-top: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.table-container th {
+  background-color: #f7022a;
+  color: #fff;
+  text-align: left;
+}
+
+.table-container td {
+  text-align: center;
+}
+
+.button {
+  background-color: #f7022a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff0033;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="number"]:focus,
+.form-container input[type="email"]:focus {
+  outline: none;
+  border-color: #f7022a;
+}
+
+.error-message {
+  color: #f7022a;
+  margin-top: 5px;
+}
+
